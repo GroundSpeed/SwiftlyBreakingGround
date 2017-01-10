@@ -25,14 +25,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func displayGreen(sender: AnyObject) {
+    @IBAction func displayGreen(_ sender: AnyObject) {
         lblMessage.text = "You wanted green"
-        self.view.backgroundColor = UIColor.greenColor()
+        self.view.backgroundColor = UIColor.green
     }
 
-    @IBAction func displayRed(sender: AnyObject) {
+    @IBAction func displayRed(_ sender: AnyObject) {
         lblMessage.text = "You wanted red"
-        self.view.backgroundColor = UIColor.redColor()
+        self.view.backgroundColor = UIColor.red
     }
 }
 
